@@ -1,66 +1,131 @@
-body {
+body{
     min-height: 100%;
-    background: linear-gradient(rgb(227, 248, 255), rgb(180, 225, 240));
+    background: linear-gradient(rgb(227, 248, 255), rgb(164, 211, 226));
     background-repeat: no-repeat;
 }
 
-/*Parte de cima da página (cabeçalho)*/
-header {
+header{
+    background: linear-gradient(rgb(66, 123, 177), rgb(44, 90, 134));
+    padding: 15px; 
+    border-radius: 15px;
+}
+
+
+/*Página Index*/
+.menu{
+    padding-top: 10px;
+    margin: 5px 0px 10px 0px;
     display: flex;
-    background-color: #909090;
-    padding: 10px; /*espaçamento interior*/
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
 }
 
-.menus {
-    display: flex;
+.buttons_menu{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(91, 156, 218);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
 }
 
-/*Imagem da logo*/
-#logo_img{
-    position: absolute;
-    top: 20px;
-    bottom: 10px;
-    border-radius: 100%; /*Arredondar bordas*/
+.buttons_menu:hover{
+    background-color: rgb(66, 123, 177);
 }
 
-/*Imagem do album*/
-#fresno_img {
-    width: 100%;
-    height: 100%;
+
+/*Imagem principal*/
+#fresno_img{
+    max-width: 100%; 
+    height: auto;
+    border: 5px solid rgb(30, 92, 150);
+    border-radius: 5px;
 }
+
+#logo_site{
+    position: absolute; 
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    width: 290px;
+}
+
 
 /*Banner da imagem principal*/
-#banner {
-    position: relative;
-    border: 10px solid #909090;
-    width: 1000px;
-}
-
-.box {
-    padding: 10px;
+#banner{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 1300px; 
     margin: 10px;
-    background-color: rgb(84, 158, 157);
+    position: relative
 }
 
-.container_images {
+.box{
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(rgb(66, 123, 177), rgb(44, 90, 134));
+}
+
+.box h1{
+    font-size: 30px;
+}
+
+.box2{
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 200px 10px 200px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(rgb(110, 169, 224), rgb(74, 120, 163));
+}
+
+.box2 h1{
+    font-size: 30px;
+}
+
+.container_images{
     display: flex;
     justify-content: space-between;
     justify-content: center;
 }
 
+
 /*Caixa de texto pro diário*/
-textarea {
-    width: 100%;  /* A largura se ajustará ao container */
-    height: 200px; /* Altura fixa */
-    resize: none;       /* Remove a possibilidade de redimensionamento */
+textarea{
+    width: 100%; 
+    height: 200px; 
+    resize: none; 
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
+    background-color: rgb(230, 249, 255);
     border: 2px solid #ccc;
-    box-sizing: border-box; /* Garante que o padding e a borda sejam considerados no tamanho total */
+    outline: none;
+    box-sizing: border-box; 
 }
 
-.rodape {
-    background-color: #909090;
-    padding: 20px;
+.rodape{
+    background-color: rgb(66, 123, 177);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*Página Sobre*/
+#apresentacao {
+    background-color: rgb(110, 169, 224);
+    margin: 10px;
+    padding: 40px;
+    border-radius: 10px;
 }
