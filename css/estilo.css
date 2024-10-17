@@ -10,7 +10,6 @@ header{
     border-radius: 15px;
 }
 
-
 /*Página Index*/
 .menu{
     padding-top: 10px;
@@ -52,7 +51,6 @@ header{
     z-index: 1; 
     width: 290px;
 }
-
 
 /*Banner da imagem principal*/
 #banner{
@@ -120,7 +118,6 @@ textarea{
     border-radius: 10px;
     text-align: center;
 }
-
 
 /*Página Sobre*/
 #apresentacao {
