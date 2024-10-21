@@ -10,6 +10,20 @@ header{
     border-radius: 15px;
 }
 
+.container_images {
+    display: flex;            /* Usa flexbox para alinhar as imagens lado a lado */
+    justify-content: center;  /* Centraliza as imagens no contêiner */
+    gap: 20px;               /* Espaçamento entre as imagens */
+}
+
+.container_images img {
+    width: 200px;            /* Define a largura das imagens */
+    height: auto;            /* Mantém a proporção */
+}
+
+
+
+
 /*Página Index*/
 .menu{
     padding-top: 10px;
@@ -52,6 +66,7 @@ header{
     width: 290px;
 }
 
+
 /*Banner da imagem principal*/
 #banner{
     display: flex; 
@@ -92,8 +107,12 @@ header{
 
 .container_images{
     display: flex;
-    justify-content: space-between;
     justify-content: center;
+    align-items: center;
+    min-height: auto;
+    margin: 0%;
+    background-position: 0cap;
+
 }
 
 
@@ -118,6 +137,7 @@ textarea{
     border-radius: 10px;
     text-align: center;
 }
+
 
 /*Página Sobre*/
 #apresentacao {
